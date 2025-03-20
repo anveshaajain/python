@@ -9,13 +9,13 @@ def grade(marks):
     else:
         return 'F'
 
-marks = []  # Initialize the list outside the function
+marks = []  
 
 for i in range(3):
-    mark = int(input(f"Enter the mark for subject {i+1} (0-100): "))  # Use f-string
+    mark = int(input(f"Enter the mark for subject {i+1} (0-100): "))  
     if 0 <= mark <= 100:
         marks.append(mark)
     else:
         print("Marks should be between 0 - 100.")
 
-print("Grade is:", grade(marks))  # Call the function after collecting all marks
+print("Grade is:", grade(marks))  
