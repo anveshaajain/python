@@ -33,6 +33,3 @@ def main():
     else:
         print("The employee is not eligible to work.")
 
-
-if __name__ == "__main__":
-    main()
